@@ -16,14 +16,13 @@ img {
     outline: red solid 1px;
 }
 
-/* ul {
+ul {
     list-style: none;
     display: flex;
-    /* justify-content: flex-end; */
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-} */
+}
