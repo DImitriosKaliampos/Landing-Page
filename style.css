@@ -3,9 +3,27 @@ body {
     margin: 0;
     /* overflow: hidden; */
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
     width: 200px;
     height: 150px;
 }
+
+* {
+    outline: red solid 1px;
+}
+
+/* ul {
+    list-style: none;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
