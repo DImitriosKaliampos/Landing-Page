@@ -12,6 +12,8 @@ body {
 img {
     width: 200px;
     height: 150px;
+    border: 10px #3882F6;
+    border-radius: 15px;
 }
 
 /* * {
@@ -34,6 +36,7 @@ button {
     background-color: #3882F6;
     color: white;
     border-color: aliceblue;
+    border-radius: 25px;
 }
 
 .hero-text {
@@ -54,12 +57,22 @@ button {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    color: aliceblue;
 }
 
 .first-part {
     display: flex;
-    flex: 1 1 0px;
     justify-content: space-between;
+}
+
+.first-part > * {
+    flex-basis: 100%;
+}
+
+.top-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
 }
 
 .first-text {
