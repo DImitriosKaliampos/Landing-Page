@@ -21,10 +21,12 @@ img {
 ul {
     list-style: none;
     display: flex;
+    gap: 10px;
 }
 
 a {
     color: aliceblue;
+    text-decoration: none;
 }
 
 button {
@@ -74,7 +76,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 6%;
-    gap: 15px;
+    gap: 8px;
 }
 
 .info {
@@ -83,6 +85,7 @@ button {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    width: 280px;
 }
 
 .title {
@@ -123,19 +126,19 @@ button {
     /* margin: 5%; */
     margin-top: 8%;
     margin-bottom: 8%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 35%;
+    margin-right: 35%;
     display: flex;
     background-color: #3882F6;
     color: #E5E7EB;
 }
 
 .fourth-part > *:nth-child(1) {
-    flex: 1 1 60%;
+    flex: 1 1 70%;
 }
 
 .fourth-part > *:nth-child(2) {
-    flex: 1 1 40%;
+    flex: 1 1 30%;
 }
 .bottom-texts {
     /* display: flex;
