@@ -14,9 +14,9 @@ img {
     height: 150px;
 }
 
-* {
+/* * {
     outline: red solid 1px;
-}
+} */
 
 ul {
     list-style: none;
@@ -29,7 +29,7 @@ a {
 
 button {
     font-family: Roboto, sans-serif;
-    background-color: rgb(22, 102, 155);
+    background-color: #3882F6;
     color: white;
     border-color: aliceblue;
 }
@@ -95,7 +95,10 @@ button {
 
 .third-part {
     background-color: #E5E7EB;
-    padding: 8%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 35%;
+    padding-right: 35%;
     color: #1F2937;
     /* text-align: center; */
 }
@@ -103,12 +106,10 @@ button {
 .big-quote {
    display: flex;
    justify-content: flex-end;
-   text-align: center;
-   font-size: 30px;
+   font-size: 22px;
+   font-weight: 200;
    font-style: italic;
    color: #1F2937;
-   min-width: 5ch;
- 
 }
 
 .small-quote {
@@ -117,6 +118,47 @@ button {
    font-size: 18px;
    font-weight: 900;
 }
+
+.fourth-part {
+    /* margin: 5%; */
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.fourth-part > *:nth-child(1) {
+    flex: 1 1 60%;
+}
+
+.fourth-part > *:nth-child(2) {
+    flex: 1 1 40%;
+}
+.bottom-texts {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 35px;
+
+}
+
+.bottom-text-title {
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 
 
